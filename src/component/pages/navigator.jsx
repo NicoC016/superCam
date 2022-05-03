@@ -4,6 +4,7 @@ import logo from "../../assets/img/logo.png"
 import foto1 from "../../assets/img/foto1.png"
 import foto2 from "../../assets/img/foto2.png"
 import foto3 from "../../assets/img/foto3.png"
+import imagen4 from "../../assets/img/imagen4.png"
 
 
 
@@ -70,16 +71,19 @@ export class Navigator extends React.Component {
 export class Cuerpo extends React.Component {
     render() {
         return (
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide flexslider" data-bs-ride="carousel">
                 <div className="carousel-inner">
+                    <div className="carousel-item">
+                        <img src={foto2} className="carrousel w-100" alt="..." />
+                    </div>
                     <div className="carousel-item active">
-                        <img src={foto1} className="carrousel" alt="..." />
+                        <img src={foto1} className="carrousel w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src={foto2} className="carrousel" alt="..." />
+                        <img src={foto3} className="carrousel w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src={foto3} className="carrousel" alt="..." />
+                        <img src={imagen4} className="carrousel w-100" alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
