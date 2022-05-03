@@ -39,7 +39,8 @@
   margin-left: 9rem;
 }
 #nav{
-  font-size:1rem
+  font-size:1rem;
+  font-family:Arial ;
 }
 #carouselExampleControls{
   margin-top:3.6rem
@@ -71,11 +72,7 @@
   width: 13.6rem;   
   border-radius:8px;
 }
-@media(max-width:500px){
-  .grid-layout{
-    grid-template-columns:auto,auto;
-  }
-}
+
 @media(max-width: 900px){
   .grid-layout{
       grid-template-columns:auto;
