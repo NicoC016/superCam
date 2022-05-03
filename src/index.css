@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+
+.navigator1{
+  background-color:#f9a560;
+  box-shadow: 2px 2px 5px rgb(133, 131, 131);
+}
+.alarma-comunitaria{
+  margin-top:5rem
+}
+.navigator-logo{
+    max-width: 16rem;
+    max-height: 16rem;
+
+}
+#navbarNavDropdown{
+  margin-left: 9rem;
+}
+#nav{
+  font-size:1rem
+}
+#carouselExampleControls{
+  margin-top:3.6rem
+}
+
+.carrousel{
+  max-width: 125rem;
+  max-height:40rem
+}
+.card{
+  max-width:18rem
+}
+.image-card{
+  width: 215px;
+  height: 240px;
+  border-radius:8px;
+
+  
+} 
+.grid-layout{
+  display:grid;
+  margin-top: 5rem;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center !important;
+
+}
+.card2{
+  margin-bottom:10px;
+  width: 13.6rem;   
+  border-radius:8px;
+}
+@media(max-width:500px){
+  .grid-layout{
+    grid-template-columns:auto,auto;
+  }
+}
+@media(max-width: 900px){
+  .grid-layout{
+      grid-template-columns:auto;
+  }
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
 }
