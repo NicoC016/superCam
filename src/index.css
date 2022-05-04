@@ -1,3 +1,4 @@
+/* navegacion */
 .nav-scroller {
   position: relative;
   z-index: 2;
@@ -27,9 +28,7 @@
   background-color:#f9a560;
   box-shadow: 2px 2px 5px rgb(133, 131, 131);
 }
-.alarma-comunitaria{
-  margin-top:5rem
-}
+
 .navigator-logo{
     max-width: 16rem;
     max-height: 16rem;
@@ -42,6 +41,10 @@
   font-size:1rem;
   font-family:Arial ;
 }
+.login{
+  padding-left:17rem
+}
+/* carrouser */
 #carouselExampleControls{
   margin-top:3.6rem
 }
@@ -60,6 +63,8 @@
 
   
 } 
+
+/* listadoCamaras */
 .grid-layout{
   display:grid;
   margin-top: 5rem;
@@ -87,3 +92,66 @@
 .flex-auto {
   flex: 0 0 auto;
 }
+
+/* body y footer */
+.footer{
+  width: 100%;
+  height: 150%;
+  bottom: 100%;
+}
+.alarma-comunitaria{
+  margin-top:5rem
+}
+
+
+/* login */
+ .form-login {
+  width: 100%;
+  max-width: 80rem;
+  padding: 15px;
+  margin-top:5rem
+  
+}
+
+.form-signin input {
+  margin-bottom: 6px;
+  border-radius: 1rem;
+  max-width: 40rem;
+
+}
+.form{
+  margin-left: 25rem;
+  margin-bottom: 7rem;
+}
+.btn{
+  background-color:#f9a560; 
+}
+
+
+/* informacion */
+
+.informacion{
+  margin-top:3rem;
+}
+.informacionEmpresa{
+  max-width:50rem;
+  margin-left:27rem;
+}
+.imagenInfo{
+  width:  120rem;
+  height: 40rem;
+  border-radius:8px;
+}
+.infoCompleta{
+  margin-top:-2rem
+}
+.infoImage{
+  margin-right:28rem
+}
+.mision{
+  margin-left:55rem;
+  margin-top:-30rem;
+  margin-bottom:30rem;
+}
+
+

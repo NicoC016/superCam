@@ -5,6 +5,7 @@ import foto1 from "../../assets/img/foto1.png"
 import foto2 from "../../assets/img/foto2.png"
 import foto3 from "../../assets/img/foto3.png"
 import imagen4 from "../../assets/img/imagen4.png"
+import 'animate.css';
 
 
 
@@ -15,7 +16,7 @@ export class Navigator extends React.Component {
                 <nav className=" navbar navbar-expand-lg  ">
                     <div className=" container-fluid  ">
                         <Link rel="apple-touch-icon" to="/">
-                            <img src={logo} alt="/" className="navigator-logo" to="/" >
+                            <img src={logo} alt="logo" className="navigator-logo" to="/"  >
                             </img>
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +25,7 @@ export class Navigator extends React.Component {
                         <div className=" justify-content collapse navbar-collapse" id="navbarNavDropdown">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <Link className='p-4 link-dark' to="/" id="nav">
+                                    <Link className='p-4 link-dark ' to="/" id="nav">
                                         Inicio
                                     </Link>
                                 </li>
@@ -59,6 +60,12 @@ export class Navigator extends React.Component {
                                         <li><Link className="dropdown-item" to="/barrioPrivado">Barrios privados</Link></li>
                                     </ul>
                                 </li>
+
+                                <li className=" login ">
+                                    <Link className=" link-dark" to="/login" >
+                                        Iniciar sesión
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -71,7 +78,7 @@ export class Navigator extends React.Component {
 export class Cuerpo extends React.Component {
     render() {
         return (
-            <div id="carouselExampleControls" className="carousel slide flexslider" data-bs-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide animate__animated animate__zoomIn" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item">
                         <img src={foto2} className="carrousel w-100" alt="..." />
