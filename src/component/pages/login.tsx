@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import logo from "../../assets/img/logo.png"
 
 export class Login extends React.Component {
@@ -11,7 +12,7 @@ export class Login extends React.Component {
                         <nav className=" navbar navbar-expand-lg  ">
                             <div className=" container-fluid  ">
                                 <Link rel="apple-touch-icon" to="/">
-                                    <img src={logo} alt="logo" className="navigator-logo" to="/"  >
+                                    <img src={logo} alt="logo" className="navigator-logo"  >
                                     </img>
                                 </Link>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +31,7 @@ export class Login extends React.Component {
                         </nav>
                     </div>
                 </header>
-                <div className="form-login  text-center ">
+                <div className="form-login text-center ">
                     <Link to="/login">
                         <img className="image" src={logo} alt="" />
                     </Link>
@@ -38,16 +39,16 @@ export class Login extends React.Component {
                 <form className="form">
 
                     <div className=" form-signin input">
-                        <label for="exampleInputEmail1" className="form-label ">Direccion de Email</label>
+                        <label htmlFor="exampleInputEmail1" className="form-label ">Direccion de Email</label>
                         <input type="email" className="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" />
                     </div>
                     <div className="mb-3 form-signin input">
-                        <label for="exampleInputPassword1" className="form-label">Contraseña</label>
+                        <label htmlFor="exampleInputPassword1" className="form-label">Contraseña</label>
                         <input type="password" className="form-control" id="exampleInputPassword1" />
                     </div>
                     <div className="mb-3 form-check ">
                         <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                        <label className="form-check-label" for="exampleCheck1">Recordarme</label>
+                        <label className="form-check-label" htmlFor="exampleCheck1">Recordarme</label>
                     </div>
                     <button type="submit" className="btn  ">Iniciar sesión</button>
                 </form>
