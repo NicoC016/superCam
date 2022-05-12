@@ -6,7 +6,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 //pages
 
-import { Navigator,Cuerpo } from "./component/pages/navigator.jsx"
+import  {Navigator} from "./component/pages/navigator"
+import {Cuerpo} from "./component/pages/navigator"
 import { AlarmaComunitaria } from "./component/pages/products/alarmaComunitaria"
 import { Barrioprivado } from "./component/pages/products/barrioPrivado"
 import { ControlAcceso } from "./component/pages/products/controlDeAcceso"
@@ -21,8 +22,8 @@ class Inicio extends React.Component {
   render() {
     return (
       <div>
-        <Navigator></Navigator>
-        <Cuerpo></Cuerpo>
+        <Navigator/>
+        <Cuerpo/>
       </div>
     )
   }
@@ -38,7 +39,7 @@ function App() {
         <Route path="/alarmaComunitaria" element={<AlarmaComunitaria />} />
         <Route path="/clientes" element={<Clientes />} />
         <Route path="/contacto" element={<Contacto />} />
-        <Route path="/productos" element={<Productos />} />
+        <Route path="/camaras" element={<Productos />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="*" element={<NotFound />} />
         <Route path="login" element={<Login />} />

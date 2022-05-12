@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { Navigator } from './navigator';
+
+
 import camaraDomoIpExterior from '../../assets/img/camaraDomoIpExterior.jpg'
 
 

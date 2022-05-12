@@ -27,6 +27,8 @@
 .navigator1{
   background-color:#f9a560;
   box-shadow: 2px 2px 5px rgb(133, 131, 131);
+  font-family: sans-serif;
+  
 }
 
 .navigator-logo{
@@ -38,11 +40,10 @@
   margin-left: 9rem;
 }
 #nav{
-  font-size:1rem;
-  font-family:Arial ;
+  font-size:1.1rem;
 }
 .login{
-  padding-left:17rem
+  padding-left:12rem
 }
 /* carrouser */
 #carouselExampleControls{
@@ -145,8 +146,9 @@
 .infoCompleta{
   margin-top:-2rem
 }
-.infoImage{
-  margin-right:28rem
+.infoImagen{
+  margin-right:28rem;
+  margin-top:-10rem
 }
 .mision{
   margin-left:55rem;
@@ -154,4 +156,42 @@
   margin-bottom:30rem;
 }
 
+/* not found */
+.logotipo{
+  margin-left:25rem;
+  margin-top:5rem
+}
+.buttonNotFound{
+  margin-left:45rem
+}
 
+/* mail de contacto */
+
+.formularioContacto{
+  color: #f9a560;
+}
+.contacto{
+  font-family:sans-serif;
+  font-size: 20px;
+  margin-left:12rem;
+  margin-top :8rem;
+}
+.form1{
+  max-width:70rem;
+  margin-right: 40rem;
+}
+.eslogan{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom:20rem;
+  margin-top:13rem
+}
+/* clientes */
+.imagenCliente{
+  margin-bottom:10px;
+  width: 14.6rem;   
+  border-radius:8px;
+}
